@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="TabbedPanel" alignment="0" pref="1811" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="TabbedPanel" alignment="0" pref="1162" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="TabbedPanel">
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Easy"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="TabbedPanelStateChanged"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="EasyPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Easy">
+                <Property name="tabTitle" type="java.lang.String" value="Easy"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1806" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1128" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Container class="javax.swing.JPanel" name="MediumPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Medium">
+                <Property name="tabTitle" type="java.lang.String" value="Medium"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1806" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1128" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="HardPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Hard">
+                <Property name="tabTitle" type="java.lang.String" value="Hard"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
